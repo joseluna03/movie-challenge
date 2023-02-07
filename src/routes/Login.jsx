@@ -30,7 +30,7 @@ function Login() {
 
     return (
       <div>
-        <button onClick={handleOnClick}>Iniciar sesion con Google</button>
+        <button onClick={handleOnClick} className="button">Iniciar sesion con Google</button>
       </div>
     );
   } else {
